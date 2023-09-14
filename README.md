@@ -1,7 +1,7 @@
 # SeaDroneLib
 
-This repository was made by [@Aouei](https://github.com/Aouei) and [@alrova96](https://github.com/alrova96). Both currently working at [ICMAN, CSIC](http://www.icman.csic.es/en/). 
-With also the colaboration of [@aewindle110](https://github.com/aewindle110) for the water quality part.
+This repository was made by [Sergio Heredia](https://github.com/Aouei) and [Alejandro Román](https://github.com/alrova96). Both currently working at [ICMAN, CSIC](http://www.icman.csic.es/en/). 
+With also the colaboration of [Anne Windle](https://github.com/aewindle110) for the water quality part.
 
 The code inside gathers features like:
 - Extract camera metadata of Micasense camera
@@ -88,8 +88,6 @@ The code is mainly composed of 4 files:
   - contains the code related to georeference, mosaicking, etc...
 - water_quality.py: 
   - contains the code needed to obtain water quality products such as chlorophyll, turbidity, etc...
-- remote_sensing.py: 
-  - contains the code needed to extract and process remote sensing reflectance.
 - data_structures.py: 
   - contains classes for gathering useful data needed in the processing.
 - enums.py: 
@@ -143,8 +141,8 @@ Work in progress
 
 ## Authors
 
-- [@Aouei](https://github.com/Aouei)
+- [Sergio Heredia](https://github.com/Aouei)
 
-- [@alrova96](https://github.com/alrova96)
+- [Alejandro Román](https://github.com/alrova96)
 
-- [@aewindle110](https://github.com/aewindle110)
+- [Anne Windle](https://github.com/aewindle110)
