@@ -112,12 +112,11 @@ In order to perform a complete processing we need our dataset to comprise the fo
   - Contains the captures of the dataset panel for further calibration if necessary (in tif format).
 - raw_water_imgs: 
   - Contains the captures of the flight in question (in tif format).
-- summary.yml: 
-  - It is a file used to define flight metadata. 
-  - Its main function is to determine which captures will be georeferenced and joined (we will detail it).
+- flight_lines.yaml: 
+  - Contains which captures define the usable lines for georeferencing, merging, etc...
 
 #### Usage
-[Manual](/manuals/Mosaicking_Code_Multispectral_DroneWQ.pdf)
+See: [mono_processing_jupyter/dji](/seadrone_usage/mono_processing_jupyter/dji.ipynb) and [batch_processing_jupyter/dji](/seadrone_usage/batch_processing_jupyter/dji.ipynb) files
 
 ### DJI processing
 #### Dataset/Flight structure
@@ -132,7 +131,4 @@ In order to perform a complete processing we need our dataset to comprise the fo
   - Its main function is to determine which captures will be georeferenced and joined.
 
 #### Usage
-Work in progress
-
-## Examples
-Work in progress
+See: [mono_processing_jupyter/micasense](/seadrone_usage/mono_processing_jupyter/micasense.ipynb) and [batch_processing_jupyter/micasense](/seadrone_usage/batch_processing_jupyter/micasense.ipynb) files
