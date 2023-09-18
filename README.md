@@ -84,8 +84,6 @@ If you want to uninstall micasense and seadrone
 The code is mainly composed of 4 files:
 - raster.py: 
   - contains the code related to georeference, mosaicking, etc...
-- water_quality.py: 
-  - contains the code needed to obtain water quality products such as chlorophyll, turbidity, etc...
 - data_structures.py: 
   - contains classes for gathering useful data needed in the processing.
 - enums.py: 
