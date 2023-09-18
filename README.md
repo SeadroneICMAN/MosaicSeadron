@@ -1,22 +1,20 @@
 # SeaDroneLib
 
-This repository was made by [Sergio Heredia](https://github.com/Aouei) and [Alejandro Román](https://github.com/alrova96). Both currently working at [ICMAN, CSIC](http://www.icman.csic.es/en/). 
-With also the colaboration of [Anne Windle](https://github.com/aewindle110) for the water quality part.
+MosaicSeadron is a repository that includes all the necessary scripts to georeference, mosaic, and fully map consecutive overlapped captures taken by unmanned aerial vehicles (UAVs) equipped with RGB, thermal, and multispectral sensors. More information about the methods employed in this repository can be found in "Enhancing Georeferencing and Mosaicking Techniques over Water Surfaces with High-Resolution UAV Imagery", a research article authored by [Alejandro Román](https://github.com/alrova96), [Sergio Heredia](https://github.com/Aouei), [Anna E. Windle](https://github.com/aewindle110), Antonio Tovar Sánchez, and Gabriel Navarro.
 
 The code inside gathers features like:
-- Extract camera metadata of Micasense camera
-- Extract camera metadata of DJI camera
-- Georeference captures
-- Merge (mosaic) captures
-- Filter captures and/or merges
-- Remote sensing reflectance extraction See [DroneWQ](https://github.com/aewindle110/DroneWQ)
-- Water quality. See [DroneWQ](https://github.com/aewindle110/DroneWQ)
+- Extract camera metadata of Micasense sensors.
+- Extract camera metadata of DJI sensors.
+- Georeference individual UAV captures.
+- Merge (mosaic) consecutive UAV captures.
+- Filter captures and/or merges.
+
 ## Folder Structure
 
 
 <img src="/captures/Folder_structure.png" alt="Folder Structure" title="Folder Structure">
 
-In general there will always be the folders:
+In general there will always be the following folders:
 - dependencies: 
   - contains extra files that are necessary to run the code.
 - micasense: 
@@ -138,11 +136,3 @@ Work in progress
 
 ## Examples
 Work in progress
-
-## Authors
-
-- [Sergio Heredia](https://github.com/Aouei)
-
-- [Alejandro Román](https://github.com/alrova96)
-
-- [Anne Windle](https://github.com/aewindle110)
