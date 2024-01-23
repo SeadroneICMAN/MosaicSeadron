@@ -1,6 +1,6 @@
 # SeaDroneLib
 
-MosaicSeadron is a repository that includes all the necessary scripts to georeference, mosaic, and fully map consecutive overlapped captures taken by unmanned aerial vehicles (UAVs) equipped with RGB, thermal, and multispectral sensors. More information about the methods employed in this repository can be found in "Enhancing Georeferencing and Mosaicking Techniques over Water Surfaces with High-Resolution UAV Imagery", a research article authored by [Alejandro Román](https://github.com/alrova96), [Sergio Heredia](https://github.com/Aouei), [Anna E. Windle](https://github.com/aewindle110), Antonio Tovar Sánchez, and Gabriel Navarro.
+MosaicSeadron is a repository that includes all the necessary scripts to georeference, mosaic, and fully map consecutive overlapped captures taken by Unmanned Aerial Vehicles (UAVs, or drones) equipped with RGB, thermal, and multispectral sensors. More information about the methods employed in this repository can be found in "Enhancing Georeferencing and Mosaicking Techniques over Water Surfaces with High-Resolution Unmanned Aerial Vehicle (UAV) Imagery", a research article authored by [Alejandro Román](https://github.com/alrova96), [Sergio Heredia](https://github.com/Aouei), [Anna E. Windle](https://github.com/aewindle110), Antonio Tovar Sánchez, and Gabriel Navarro. The research article is published in: (https://www.mdpi.com/2072-4292/16/2/290)
 
 The code inside gathers features like:
 - Extract camera metadata of Micasense sensors.
