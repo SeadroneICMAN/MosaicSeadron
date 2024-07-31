@@ -40,14 +40,26 @@ Go to the project directory
   cd seadronelib
 ```
 
-Create a virtual environment with venv
+**Important**: The environment must have python3.10 to work.
+
+Create a virtual environment with **venv on Windows**
 ```bash
-  python -m venv seadronelib-venv --prompt="seadronelib"
+  python3.10 -m venv seadronelib-venv --prompt="seadronelib"
 ```
 
-Activate the environment
+Activate the environment with **venv**
 ```bash
   seadronelib-venv\Scripts\activate
+```
+
+Create a virtual environment with **anaconda on Windows**
+```bash
+  conda create -n seadronelib python=3.10 -y
+```
+
+Activate the environment with **anaconda**
+```bash
+  conda activate seadronelib
 ```
 
 Install the dependencies
@@ -58,7 +70,7 @@ Install the dependencies
 
 Install micasense and seadrone modules
 
-Important: The virtual environment must be activated
+**Important**: The virtual environment must be activated
 
 Generation of install.sh file and install micasense and seadrone
 ```bash
