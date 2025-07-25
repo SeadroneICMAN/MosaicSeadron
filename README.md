@@ -21,20 +21,20 @@ Upcoming code updates will include adaptations for the DJI Phantom 4 Multispectr
 <img src="/captures/Folder_structure.png" alt="Folder Structure" title="Folder Structure">
 
 In general, the following folders will always be present:
-- dependencies
-Contains additional files required to run the code.
+- dependencies:
+  - Contains additional files required to run the code.
 
-- micasense
-Includes code for processing images captured with the MicaSense camera.
+- micasense:
+  - Includes code for processing images captured with the MicaSense camera.
 
-- scripts
-Contains files used to execute configuration tasks, such as installing or uninstalling the MicaSense-related code.
+- scripts:
+  - Contains files used to execute configuration tasks, such as installing or uninstalling the MicaSense-related code.
 
-- seadrone
-Includes code for georeferencing and mosaicking.
+- seadrone:
+  - Includes code for georeferencing and mosaicking.
 
-- seadrone_usage
-Contains scripts demonstrating typical use cases, such as Rrs extraction, georeferencing, and more.
+- seadrone_usage:
+  - Contains scripts demonstrating typical use cases, such as Rrs extraction, georeferencing, and more.
 
 ## Set Up
 Here we explain how to download and install the code to begin working with it.
