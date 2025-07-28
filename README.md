@@ -4,7 +4,7 @@ MosaicSeadron is a repository that includes all the necessary scripts to georefe
 
 More information about the methods employed in this repository can be found in the research article "Enhancing Georeferencing and Mosaicking Techniques over Water Surfaces with High-Resolution Unmanned Aerial Vehicle (UAV) Imagery", authored by [Alejandro Román](https://github.com/alrova96), [Sergio Heredia](https://github.com/Aouei), [Anna E. Windle](https://github.com/aewindle110), Antonio Tovar Sánchez, and Gabriel Navarro. The article is published in: https://www.mdpi.com/2072-4292/16/2/290. 
 
-In accordance with the FAIR principles, all datasets (RGB, thermal, and multispectral) used in this study - except for the Lake Erie (US) dataset - can be downloaded from the following DIGITAL.CSIC repository: http://hdl.handle.net/10261/395796.
+In accordance with the FAIR principles, all datasets (RGB, thermal, and multispectral) used in this study - except for the Lake Erie (US) dataset - can be downloaded from the following DIGITAL.CSIC repository: [DOI](https://doi.org/10.20350/digitalCSIC/17464),[URL](http://hdl.handle.net/10261/395796).
 
 The repository includes features such as:
 - Extraction of camera metadata from Micasense sensors (MicaSense RedEdge MX - 5 and 10 multispectral bands).
